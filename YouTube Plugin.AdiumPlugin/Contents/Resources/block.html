@@ -1,0 +1,25 @@
+<table border="0" cellpadding="0" cellspacing="0" style="margin: 5px 0 0 0">
+	<tr>
+		<td id="ytp-thumbs-row-{%blockId%}" name="ytp-thumbs-row">{%thumbs%}</td>
+		<td>
+			<span name="ytp-block" id="ytp-block-{%blockId%}"
+				style="display: none; padding: 0px; margin: 3px; text-align: center">
+				<span id="ytp-video-{%blockId%}"></span>
+			</span>
+		</td>
+	</tr>
+	<tr style="display: none" id="ytp-hide-block-{%blockId%}" name="ytp-hide-block">
+		<td></td>
+		<td align="center">
+			<a href="#"
+				onclick="document.getElementById('ytp-block-{%blockId%}').style.display = 'none';
+						thumbs = document.getElementsByName('ytp-thumb');
+						for(var i = 0;i<thumbs.length;++i)
+							thumbs[i].style.border = 'solid 1px transparent';
+						document.getElementById('ytp-thumbs-row-{%blockId%}').width = 0;
+						document.getElementById('ytp-hide-block-{%blockId%}').style.display = 'none';
+						return false;"
+				style="font-size: %50">hide</a>
+		</td>
+	</tr>
+</table>
