@@ -1,0 +1,34 @@
+<a href="http://www.youtube.com/watch?v={%videoId%}"
+	onclick="blocks = document.getElementsByName('ytp-block');
+			for (var i = 0; i<blocks.length; ++i)
+				blocks[i].style.display = 'none';
+			hideblocks = document.getElementsByName('ytp-hide-block');
+			for (var i = 0; i<hideblocks.length; ++i)
+				hideblocks[i].style.display = 'none';
+			thumbsrows = document.getElementsByName('ytp-thumbs-row');
+			for (var i = 0; i<thumbsrows.length; ++i)
+				thumbsrows[i].width  =  0;
+			thumbs = document.getElementsByName('ytp-thumb');
+			for (var i = 0; i<thumbs.length; ++i) thumbs[i].style.border = 'solid 1px transparent';
+			newvideo = document.createElement('embed');
+			newvideo.setAttribute('src', 'http://www.youtube.com/v/{%videoId%}&fs=1&rel=0&color1=0x3a3a3a&color2=0x999999&border={%border%}');
+			newvideo.setAttribute('type', 'application/x-shockwave-flash');
+			newvideo.setAttribute('allowscriptaccess', 'always');
+			newvideo.setAttribute('allowfullscreen', 'false');
+			newvideo.setAttribute('width', '{%width%}');
+			newvideo.setAttribute('height', '{%height%}');
+			video = document.getElementById('ytp-video-{%blockId%}');
+			block = document.getElementById('ytp-block-{%blockId%}');
+			block.replaceChild(newvideo, video);
+			newvideo.setAttribute('id', 'ytp-video-{%blockId%}');
+			block.style.display = 'block';
+			thumb = document.getElementById('ytp-thumb-{%blockId%}-{%thumbId%}');
+			thumb.style.border = 'solid 1px';
+			thumbsrow = document.getElementById('ytp-thumbs-row-{%blockId%}');
+			thumbsrow.width = 60;
+			hideblock = document.getElementById('ytp-hide-block-{%blockId%}');
+			hideblock.style.display = 'table-row';
+			return false;">
+	<img id="ytp-thumb-{%blockId%}-{%thumbId%}" name="ytp-thumb" width="60" height="45" style="border: solid 1px transparent; margin: 3px"
+		src="http://img.youtube.com/vi/{%videoId%}/default.jpg" />
+</a>

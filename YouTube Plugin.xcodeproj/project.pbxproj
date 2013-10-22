@@ -1,0 +1,323 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C2296830FD3D4FE001B1CF9 /* YouTubePluginPrefs.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0C2296820FD3D4FE001B1CF9 /* YouTubePluginPrefs.xib */; };
+		0C777D220FD29015000AB127 /* YouTubePluginPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C777D210FD29015000AB127 /* YouTubePluginPreferences.m */; };
+		0C7782190FD34EE0000AB127 /* YouTubePluginDefaults.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0C7782180FD34EE0000AB127 /* YouTubePluginDefaults.plist */; };
+		0C7782FA0FD354E8000AB127 /* youtube_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 0C7782F90FD354E8000AB127 /* youtube_logo.png */; };
+		0CB8474B0FEE859600B309BD /* block.html in Resources */ = {isa = PBXBuildFile; fileRef = 0CB8474A0FEE859600B309BD /* block.html */; };
+		0CB8474F0FEE877300B309BD /* youtube_thumb.html in Resources */ = {isa = PBXBuildFile; fileRef = 0CB8474E0FEE877300B309BD /* youtube_thumb.html */; };
+		0CC8EC860FA0D7C1005D6C3D /* YouTubePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CC8EC850FA0D7C1005D6C3D /* YouTubePlugin.m */; };
+		8C8055041815C7D300B8D752 /* AIUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8055031815C7D300B8D752 /* AIUtilities.framework */; };
+		8C8055061815C7DE00B8D752 /* Adium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C8055051815C7DE00B8D752 /* Adium.framework */; };
+		8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C167DFE841241C02AAC07 /* InfoPlist.strings */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		089C167EFE841241C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0C2296820FD3D4FE001B1CF9 /* YouTubePluginPrefs.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = YouTubePluginPrefs.xib; sourceTree = "<group>"; };
+		0C564F290FA1DC3E000EC4BC /* YouTube Plugin.AdiumPlugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "YouTube Plugin.AdiumPlugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C777D200FD29015000AB127 /* YouTubePluginPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubePluginPreferences.h; sourceTree = "<group>"; };
+		0C777D210FD29015000AB127 /* YouTubePluginPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubePluginPreferences.m; sourceTree = "<group>"; };
+		0C7782180FD34EE0000AB127 /* YouTubePluginDefaults.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = YouTubePluginDefaults.plist; sourceTree = "<group>"; };
+		0C7782F90FD354E8000AB127 /* youtube_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = youtube_logo.png; sourceTree = "<group>"; };
+		0CB8474A0FEE859600B309BD /* block.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = block.html; sourceTree = "<group>"; };
+		0CB8474E0FEE877300B309BD /* youtube_thumb.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = youtube_thumb.html; sourceTree = "<group>"; };
+		0CC8EC840FA0D7C1005D6C3D /* YouTubePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YouTubePlugin.h; sourceTree = "<group>"; };
+		0CC8EC850FA0D7C1005D6C3D /* YouTubePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YouTubePlugin.m; sourceTree = "<group>"; };
+		32DBCF630370AF2F00C91783 /* YouTube Plugin_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "YouTube Plugin_Prefix.pch"; sourceTree = "<group>"; };
+		8C8055031815C7D300B8D752 /* AIUtilities.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AIUtilities.framework; sourceTree = "<group>"; };
+		8C8055051815C7DE00B8D752 /* Adium.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Adium.framework; sourceTree = "<group>"; };
+		8D5B49B7048680CD000E48DA /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D5B49B3048680CD000E48DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C8055041815C7D300B8D752 /* AIUtilities.framework in Frameworks */,
+				8C8055061815C7DE00B8D752 /* Adium.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		089C166AFE841209C02AAC07 /* YouTube Preview Plugin */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AFFE84173DC02AAC07 /* Classes */,
+				32C88E010371C26100C91783 /* Other Sources */,
+				089C167CFE841241C02AAC07 /* Resources */,
+				089C1671FE841209C02AAC07 /* Frameworks and Libraries */,
+				19C28FB8FE9D52D311CA2CBB /* Products */,
+			);
+			name = "YouTube Preview Plugin";
+			sourceTree = "<group>";
+		};
+		089C1671FE841209C02AAC07 /* Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */,
+				1058C7AEFEA557BF11CA2CBB /* Other Frameworks */,
+			);
+			name = "Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C167CFE841241C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0C2296820FD3D4FE001B1CF9 /* YouTubePluginPrefs.xib */,
+				0C7782F90FD354E8000AB127 /* youtube_logo.png */,
+				8D5B49B7048680CD000E48DA /* Info.plist */,
+				089C167DFE841241C02AAC07 /* InfoPlist.strings */,
+				0C7782180FD34EE0000AB127 /* YouTubePluginDefaults.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AFFE84173DC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0C777D200FD29015000AB127 /* YouTubePluginPreferences.h */,
+				0C777D210FD29015000AB127 /* YouTubePluginPreferences.m */,
+				0CC8EC840FA0D7C1005D6C3D /* YouTubePlugin.h */,
+				0CC8EC850FA0D7C1005D6C3D /* YouTubePlugin.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7ACFEA557BF11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7AEFEA557BF11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C8055031815C7D300B8D752 /* AIUtilities.framework */,
+				8C8055051815C7DE00B8D752 /* Adium.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB8FE9D52D311CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C564F290FA1DC3E000EC4BC /* YouTube Plugin.AdiumPlugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C88E010371C26100C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF630370AF2F00C91783 /* YouTube Plugin_Prefix.pch */,
+				0CB8474A0FEE859600B309BD /* block.html */,
+				0CB8474E0FEE877300B309BD /* youtube_thumb.html */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D5B49AC048680CD000E48DA /* YouTube Plugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "YouTube Plugin" */;
+			buildPhases = (
+				8D5B49AF048680CD000E48DA /* Resources */,
+				8D5B49B1048680CD000E48DA /* Sources */,
+				8D5B49B3048680CD000E48DA /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YouTube Plugin";
+			productInstallPath = "$(HOME)/Library/Bundles";
+			productName = "YouTube Preview Plugin";
+			productReference = 0C564F290FA1DC3E000EC4BC /* YouTube Plugin.AdiumPlugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		089C1669FE841209C02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "YouTube Plugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 089C166AFE841209C02AAC07 /* YouTube Preview Plugin */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D5B49AC048680CD000E48DA /* YouTube Plugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D5B49AF048680CD000E48DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D5B49B0048680CD000E48DA /* InfoPlist.strings in Resources */,
+				0C7782190FD34EE0000AB127 /* YouTubePluginDefaults.plist in Resources */,
+				0C7782FA0FD354E8000AB127 /* youtube_logo.png in Resources */,
+				0C2296830FD3D4FE001B1CF9 /* YouTubePluginPrefs.xib in Resources */,
+				0CB8474B0FEE859600B309BD /* block.html in Resources */,
+				0CB8474F0FEE877300B309BD /* youtube_thumb.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D5B49B1048680CD000E48DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CC8EC860FA0D7C1005D6C3D /* YouTubePlugin.m in Sources */,
+				0C777D220FD29015000AB127 /* YouTubePluginPreferences.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C167DFE841241C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C167EFE841241C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB913B08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADIUM = "$(HOME)/Projects/adium-1.3.3";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(ADIUM)/build/Deployment",
+					"/Users/larrybolt/Downloads/youtubeadium-code-11-trunk",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "\"$(HOME)/Library/Application Support/Adium 2.0/PlugIns\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "YouTube Plugin";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Debug;
+		};
+		1DEB913C08733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ADIUM = "$(HOME)/Projects/adium-1.3.3";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(ADIUM)/build/Deployment",
+					"/Users/larrybolt/Downloads/youtubeadium-code-11-trunk",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${PRODUCT_NAME}_Prefix.pch";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "\"$(HOME)/Library/Application Support/Adium 2.0/PlugIns\"";
+				MACOSX_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_NAME = "YouTube Plugin";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = AdiumPlugin;
+			};
+			name = Release;
+		};
+		1DEB913F08733D840010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB914008733D840010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB913A08733D840010E9CD /* Build configuration list for PBXNativeTarget "YouTube Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913B08733D840010E9CD /* Debug */,
+				1DEB913C08733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB913E08733D840010E9CD /* Build configuration list for PBXProject "YouTube Plugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB913F08733D840010E9CD /* Debug */,
+				1DEB914008733D840010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 089C1669FE841209C02AAC07 /* Project object */;
+}
